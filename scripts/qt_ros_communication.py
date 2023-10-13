@@ -16,7 +16,7 @@ class MyROSQtApp(QMainWindow, form_class):
         self.init_data()
 
         self.setupUi(self)
-        self.speed_percentage_label.setText("Speed Percentage = 0%")
+        self.speed_percentage_label.setText("Speed Percentage = 100%")
         self.speed_percentage_slider.setValue(100)
         self.speed_percentage_slider.valueChanged.connect(self.speed_percent_pub)
 
