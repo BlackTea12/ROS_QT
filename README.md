@@ -10,7 +10,12 @@ _QT GUI communicating with ROS_
 
 
 ## How to run
-In your command prompt,
+First, give permission to execute python scripts.
+
+    cd ~/{catkin_workspace}/src/ROS_QT/scripts
+    chmod +x ros_comm_data.py
+
+Then in your command prompt,
 
 `
 roslaunch qt_ros ros_qt.launch
