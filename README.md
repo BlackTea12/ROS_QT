@@ -1,6 +1,7 @@
 # ROS_QT
 _QT GUI communicating with ROS_
 
+### 🌟 IT IS NOT A COMPLETED PROJECT! UPDATE IS ON GOING... 🌟
 ## Install
 
     sudo apt-get install qtcreator
