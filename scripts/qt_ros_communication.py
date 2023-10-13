@@ -8,7 +8,13 @@ import rospy
 import time
 from std_msgs.msg import Float64
 
-form_class = uic.loadUiType("/home/navifra1/develop_ws/src/qt_ros_control/resources/main_window.ui")[0]
+dir_path = os.path.dirname(os.path.realpath(__file__))
+ui_path_select = dir_path.split("/")
+ui_path_select.pop()
+ui_path = os.path.join(*ui_path_select)
+ui_path = "/"+ui_path+"/resources/main_window.ui"
+# print(ui_path)
+form_class = uic.loadUiType(ui_path)[0]
 
 class MyROSQtApp(QMainWindow, form_class):
     def __init__(self):
