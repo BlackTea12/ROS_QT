@@ -1,0 +1,5 @@
+<launch>
+  <node name="qt_ros_comm_thread" pkg="qt_ros" type="virtual_obs_controller.py" output="screen">
+    <param name="~sleep_rate" value="0.3"/>
+  </node>
+</launch>

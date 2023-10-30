@@ -1,0 +1,49 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/navifra1/develop_ws/devel/include/**",
+        "/home/navifra1/hacs_ws/devel/include/**",
+        "/home/navifra1/install/install/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_localizer/amcl/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_sensor/nc_obstacle_detector/3rdparty/ddynamic_reconfigure/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_localizer/hdl/fast_gicp/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_localizer/hdl/hdl_global_localization/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_localizer/hdl/hdl_localization/include/**",
+        "/home/navifra1/develop_ws/src/Hybrid_A_Star/include/**",
+        "/home/navifra1/develop_ws/src/jsk_visualization/jsk_interactive_markers/jsk_interactive_marker/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_calibration/OdomLaserCalibraTool/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_driver/leuze_ros_drivers/leuze_phidget_driver/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_driver/leuze_ros_drivers/leuze_rsl_driver/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_driver/lslidar_c16_driver/lslidar_c16_decoder/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_driver/lslidar_c16_driver/lslidar_c16_driver/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_interface/nc_brain_agent/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_sensor/nc_obstacle_detector/nc_camera_merger/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_sensor/nc_obstacle_detector/nc_obstacle_detector/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_interface/nc_plc_controller/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_interface/nc_plc_server/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_localizer/hdl/ndt_omp/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_driver/pf_lidar_ros_driver/pf_driver/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_driver/psen_scan_v2/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_calibration/record_ros_data/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_slam/reflector_ekf_slam/include/**",
+        "/home/navifra1/develop_ws/src/ros_type_introspection/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_driver/sick_safetyscanners/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_driver/sick_scan/include/**",
+        "/home/navifra1/develop_ws/src/core_main2/3_core_driver/sicktoolbox/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/navifra1/develop_ws/devel/lib/python3/dist-packages",
+        "/home/navifra1/hacs_ws/devel/lib/python3/dist-packages",
+        "/home/navifra1/install/install/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/navifra1/develop_ws/devel/lib/python3/dist-packages",
+        "/home/navifra1/hacs_ws/devel/lib/python3/dist-packages",
+        "/home/navifra1/install/install/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

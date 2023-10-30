@@ -37,7 +37,7 @@ class MyROSQtApp(QMainWindow, form_class):
         rospy.init_node('ros_gui_node', anonymous=True)
 
         # ros publishers
-        self.pub_speed_percent = rospy.Publisher('/navifra/speed_percent', Float64, queue_size=1)
+        self.pub_speed_percent = rospy.Publisher('/speed_percent', Float64, queue_size=1)
 
     def speed_percent_pub(self,value):
         # Update data in GUI
